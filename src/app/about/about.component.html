@@ -6,5 +6,7 @@
 </ul>
 
 <ul>
-    <li></li>
+    @for (user of users; track user) {
+        <li>{{user['name']}}</li>
+    }
 </ul>
